@@ -42,7 +42,7 @@ public class One2ManyCallApp implements WebSocketConfigurer {
 
   @Bean
   public KurentoClient kurentoClient() {
-    return KurentoClient.create("ws://35.221.65.9:8888/kurento");
+    return KurentoClient.create("ws://kobito.app:8888/kurento");
   }
 
   @Override
